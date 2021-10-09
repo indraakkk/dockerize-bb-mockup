@@ -1,8 +1,8 @@
 version: "3.9"
 services:
   bb-test2:
-    # volumes:
-      # - ./bb-test2:/var/www/html
+    volumes:
+      - ./bb-test2:/var/www/html
     container_name: "bb-test2"
     image: "indraakkk/bb:test2"
     # build:
@@ -16,8 +16,8 @@ services:
       - tech_test_network
 
   mockup-test1:
-    # volumes:
-      # - ./mockup-test1:/var/www/html
+    volumes:
+      - ./mockup-test1:/var/www/html
     container_name: "mockup-test1"
     image: "indraakkk/mockup:test1"
     # build:

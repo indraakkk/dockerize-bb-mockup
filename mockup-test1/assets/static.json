@@ -1,0 +1,96 @@
+{
+  "headers":[
+    "Hosting",
+    "Domain",
+    "Server",
+    "Website",
+    "Afiliasi",
+    "Promo",
+    "Pembayaran",
+    "Review",
+    "Kontak",
+    "Blog"
+  ],
+  "packages":[
+    {
+      "name": "Bayi",
+      "normal_price": 19900,
+      "discount_price": 14900,
+      "range": "bln",
+      "total_user": 938,
+      "features": [
+        "<b>0.5X RESOURCE POWER</b>",
+        "<b>500 MB</b> Disk Space",
+        "<b>Unlimited</b> Bandwidth",
+        "<b>Unlimited</b> Databases",
+        "<b>1</b> Domains",
+        "<b>Instant</b> Backup",
+        "<b>Unlimited SSL</b> Gratis Selamanya"
+      ],
+      "best_seller": false
+    },
+    {
+      "name": "Pelajar",
+      "normal_price": 46900,
+      "discount_price": 23450,
+      "range": "bln",
+      "total_user": 4168,
+      "features": [
+        "<b>1X RESOURCE POWER</b>",
+        "<b>Unlimited</b> Disk Space",
+        "<b>Unlimited</b> Bandwidth",
+        "<b>Unlimited</b> POP3 Email",
+        "<b>Unlimited</b> Databases",
+        "<b>10</b> Addon Domains",
+        "<b>Instant</b> Backup",
+        "<b>Domain Gratis</b> Selamanya",
+        "<b>Unlimited SSL</b> Gratis Selamanya"
+      ],
+      "best_seller": false
+    },
+    {
+      "name": "Personal",
+      "normal_price": 58900,
+      "discount_price": 38900,
+      "range": "bln",
+      "total_user": 10017,
+      "features": [
+        "<b>2X RESOURCE POWER</b>",
+        "<b>Unlimited</b> Disk Space",
+        "<b>Unlimited</b> Bandwidth",
+        "<b>Unlimited</b> POP3 Email",
+        "<b>Unlimited</b> Databases",
+        "<b>Unlimited</b> Addon Domains",
+        "<b>Instant</b> Backup",
+        "<b>Domain Gratis</b> Selamanya",
+        "<b>Unlimited SSL</b> Gratis Selamanya",
+        "<b>Private</b> Name Server",
+        "<b>SpamAssasin</b> Mail Protection"
+      ],
+      "best_seller": true
+    },
+    {
+      "name": "Bisnis",
+      "normal_price": 109900,
+      "discount_price": 65900,
+      "range": "bln",
+      "total_user": 3552,
+      "features": [
+        "<b>3X RESOURCE POWER</b>",
+        "<b>Unlimited</b> Disk Space",
+        "<b>Unlimited</b> Bandwidth",
+        "<b>Unlimited</b> POP3 Email",
+        "<b>Unlimited</b> Databases",
+        "<b>Unlimited</b> Addon Domains",
+        "<b>Instant</b> Backup & Restore",
+        "<b>Domain Gratis</b> Selamanya",
+        "<b>Unlimited SSL</b> Gratis Selamanya",
+        "<b>Private</b> Name Server",
+        "<b>Prioritas</b> Layanan Support",
+        "<span style='color:#3b83f7'>&#9733; &#9733; &#9733; &#9733; &#9733;</span>",
+        "<b>SpamAssasin</b> Mail Protection"
+      ],
+      "best_seller": false
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<div class="container mt-5 mb-5">
+  <div class="row row-no-padding">
+    {% for key, package in static.packages %}
+
+    {% if package.best_seller != false %}
+    <div class="rem-col col-sm text-center">
+      <div class="border-package-top best_seller-name">
+        <h4>{{ package.name }}</h4>
+      </div>
+      <div class="border-package-mid best_seller-price">
+        <p class="normal_price">Rp. {{ package.normal_price | number_format(2) }}</p>
+        <h4 class="discount_price">
+          <sup class="sup1">Rp</sup>
+          <span>{{ package.discount_price//1000 }}</span>
+          <sup class="sup2">.{{ package.discount_price % 1000}}</sup>
+          <sup class="sup3">/{{ package.range }}</sup>
+        </h4>
+      </div>
+      <div class="border-package-mid best_seller-total">
+        {{  package.total_user ~ ' Pengguna Terdaftar' }}
+      </div>
+      <div class="container border-package-bottom">
+        {% for feature in package.features %}
+        {{  feature|raw }} <br>
+        {% endfor %}
+
+        <button class="btn btn-outline-secondary my-4 best_seller-button">Pilih Sekarang</button>
+      </div>
+    </div>
+    {% else %}
+    <div class="rem-col col-sm text-center">
+      <div class="border-package-top">
+        <h4>{{ package.name }}</h4>
+      </div>
+      <div class="border-package-mid">
+        <p class="normal_price">Rp. {{ package.normal_price | number_format(2) }}</p>
+        <h4 class="discount_price">
+          <sup class="sup1">Rp</sup>
+          <span>{{ package.discount_price//1000 }}</span>
+          <sup class="sup2">.{{ package.discount_price % 1000}}</sup>
+          <sup class="sup3">/{{ package.range }}</sup>
+        </h4>
+      </div>
+      <div class="border-package-mid">
+        {{  package.total_user ~ ' Pengguna Terdaftar' }}
+      </div>
+      <div class="container border-package-bottom">
+        {% for feature in package.features %}
+        {{  feature|raw }} <br>
+        {% endfor %}
+
+        <button class="btn btn-outline-secondary my-4">Pilih Sekarang</button>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
